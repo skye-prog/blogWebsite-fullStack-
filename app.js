@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb+srv://admin-hussain:Kol12345@cluster0.xqekq.mongodb.net/blogDB",{useNewUrlParser:true,useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-username:password@cluster0.xqekq.mongodb.net/blogDB",{useNewUrlParser:true,useUnifiedTopology: true});
 const homeStartingContent ="I am Computer Science Student and Vice precident of HunarKeNawab💗.I start learning coding few months ago and that interest keep me pushing everyday and presently i am working on web-development.I love to code in java.i thought whatever becomes perfect only when you faithfully give your dedicated time.";
 
 
